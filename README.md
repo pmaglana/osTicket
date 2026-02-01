@@ -1,1 +1,1 @@
-# osTicket
+# osTicket Installation
