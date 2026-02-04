@@ -30,7 +30,7 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 
 <h2>Getting Started</h2>
 
-<h3>1. Create and log in to a Windows 11 Virtual Machine in Azure with the following Settings and Credentials:</h3>
+<h3>1. Create and log into a Windows 10 Virtual Machine in Azure with the following Settings and Credentials:</h3>
 
 - VM Name: vm-osTicket
 - Operating System: Windows 10 22H2-X64
@@ -52,4 +52,21 @@ Within the vm-osTicket VM, download the [osTicket-Installation-Files.zip](https:
 <img src="images/procedure1.png" width="40%" >
 </details> 
 
-<h3>3.  Enable IIS in Windows with CGI</h3>
+<h3>3. Enable IIS in Windows with CGI</h3>
+
+At the start menu, search for "Turn Windows features on or off". The Windows Features box will pop up. Click Internet Information Services and expand. After that, click + on World Wide Web Services to expand. Then, click + on Application Development Features. And lastly click CGI checkbox, hit OK, afer windows finish the installation click DONE.
+
+<details><summary>See screenshots</summary>
+<img src="images/procedure1.png" width="40%" >
+</details> 
+
+<h3> 4. From the Installation folder (osTicket-Installation-Files), find and install PHP Manager (PHPManagerForIIS_V1.5.0.msi).</h3>
+
+<details><summary>See screenshots</summary>
+<img src="images/procedure1.png" width="40%" >
+</details> 
+
+
+
+
+
