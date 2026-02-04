@@ -44,9 +44,9 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 >[!CAUTION]
 >_It is NOT good practice to be putting passwords like this in plain/readable text in any documentation. Best practice is to use a password manager to store passwords, such as KeePass, LastPass, or NordPass. Passwords will continue to be listed in these documents for ease of use, and for training purposes only._</mark>
 
-<h3>2. Log into the Virtual machine with Remote Desktop</h3>
+<h3>2. Log into the Virtual machine with Remote Desktop (ADD LINK)</h3>
 
-Within the VM (osticket-vm), download the osTicket-Installation-Files.zip and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”. We will use the files in this folder to install osTicket and some of the dependencies.
+Within the vm-osTicket VM, download the [osTicket-Installation-Files.zip](https://github.com/pmaglana/azure-active-directory) and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”. We will use the files in this folder to install osTicket and some of the dependencies.
 
 <details><summary>See screenshots</summary>
 <img src="images/whitehat.jpg" width="40%" >
