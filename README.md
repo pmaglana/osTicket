@@ -30,7 +30,7 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 
 <h2>Getting Started</h2>
 
-<h3>1. Create and log into a Windows 10 Virtual Machine in Azure with the following Settings and Credentials:</h3>
+<h3>1. Create a Windows 10 Virtual Machine in Azure with the following settings & credentials:</h3>
 
 - VM Name: vm-osTicket
 - Operating System: Windows 10 22H2-X64
@@ -44,9 +44,9 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 >[!CAUTION]
 >_It is NOT good practice to be putting passwords like this in plain/readable text in any documentation. Best practice is to use a password manager to store passwords, such as KeePass, LastPass, or NordPass. Passwords will continue to be listed in these documents for ease of use, and for training purposes only._</mark>
 
-<h3>2. Log into the Virtual machine with Remote Desktop (ADD LINK)</h3>
+<h3>2. Log into the Virtual machine with Remote Desktop</h3>
 
-Within the vm-osTicket VM, download the [osTicket-Installation-Files.zip](https://drive.google.com/file/d/1YsiGAyLoOjtVyXyeYBJzAu5XdtiGBu0I/view?usp=sharing) and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”. We will use the files in this folder to install osTicket and some of the dependencies. SS below for the complete file list.
+Within the vm-osTicket VM, download the [osTicket-Installation-Files.zip](https://drive.google.com/file/d/1YsiGAyLoOjtVyXyeYBJzAu5XdtiGBu0I/view?usp=sharing) and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”. We will use the files in this folder to install osTicket and some of the dependencies.
 
 <details><summary>See screenshots</summary>
 <img src="images/procedure1.png" width="40%" >
@@ -54,18 +54,48 @@ Within the vm-osTicket VM, download the [osTicket-Installation-Files.zip](https:
 
 <h3>3. Enable IIS in Windows with CGI</h3>
 
-At the start menu, search for "Turn Windows features on or off". The Windows Features box will pop up. Click Internet Information Services and expand. After that, click + on World Wide Web Services to expand. Then, click + on Application Development Features. And lastly click CGI checkbox, hit OK, afer windows finish the installation click DONE.
+At the start menu, search for "Turn Windows features on or off". The Windows Features box will pop up. Click Internet Information Services and expand. After that, click + on World Wide Web Services to expand. Then, click + on Application Development Features. And lastly tich the CGI checkbox, hit OK, afer windows is finished with the installation click DONE.
 
 <details><summary>See screenshots</summary>
 <img src="images/procedure1.png" width="40%" >
 </details> 
 
-<h3> 4. From the Installation folder (osTicket-Installation-Files), find and install PHP Manager (PHPManagerForIIS_V1.5.0.msi).</h3>
+<h3>4. Install PHP Manager for IIS</h3>
+From the “osTicket-Installation-Files” folder, find and install PHP Manager <mark>PHPManagerForIIS_V1.5.0.msi</mark>.
 
 <details><summary>See screenshots</summary>
 <img src="images/procedure1.png" width="40%" >
 </details> 
 
+<h3>5. Install Rewrite Module.</h3>
+From the “osTicket-Installation-Files” folder, find and install the Rewrite Module <mark>rewrite_amd64_en-US.msi</mark>.
+<details><summary>See screenshots</summary>
+<img src="images/procedure1.png" width="40%" >
+</details> 
+
+<h3>6. Extract PHP 7.3.8 on C:\PHP</h3>
+From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 by right-clicking on the file named <mark>php-7.3.8-nts-Win32-VC15-x86.zip</mark>, click Extract files..., and at the Destination path textbox type C:\PHP, then click OK.
+<details><summary>See screenshots</summary>
+<img src="images/procedure1.png" width="40%" >
+</details> 
+
+<h3>7. Install VC_redist.x86.exe.</h3>
+From the “osTicket-Installation-Files” folder, install <mark> VC_redist.x86.exe</mark>.
+<details><summary>See screenshots</summary>
+<img src="images/procedure1.png" width="40%" >
+</details> 
+
+<h3>8. Install MySQL 5.5.62.</h3>
+
+From the “osTicket-Installation-Files” folder, install mysql-5.5.62-win32.msi
+- Typical Setup
+- Launch Configuration Wizard
+- Standard Configuration
+- Username: root
+- Password: root
+<details><summary>See screenshots</summary>
+<img src="images/procedure1.png" width="40%" >
+</details> 
 
 
 
