@@ -139,7 +139,7 @@ From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 by right-clic
 - And on the same window, lets add Permission by clicking Add button, Select Principal, type "Everyone" on the object name, hit OK, tick Full control, hit OK, click Apply then OK to close the window.
   
 >[!CAUTION]
->Assigning Everyone permissions to ost-config.php is for training/learning environment only. Permissions should be restricted after setup in real environments.
+>*Assigning "Everyone" permissions to ost-config.php is for training/learning environment only. Permissions should be restricted after setup in real environments.*
 
 - Head back to the osTicket web browser and click Continue button located at the buttom part of the page and Enter these settings:
     * Helpdesk Name: Your Name
