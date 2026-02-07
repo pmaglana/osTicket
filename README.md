@@ -60,10 +60,10 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 
 <h3>3. Enable IIS in Windows with CGI</h3>
 
-At the start menu, search for "Turn Windows features on or off". The Windows Features box will pop up. Click Internet Information Services and expand. After that, click + on World Wide Web Services to expand. Then, click + on Application Development Features. And lastly tich the CGI checkbox, hit OK, afer windows is finished with the installation click DONE.
+At the start menu, search for "Turn Windows features on or off". The Windows Features box will pop up. Click + sign on Internet Information Services to expand. Click + on World Wide Web Services to expand. Then, click + on Application Development Features, and lastly tick the CGI checkbox, and hit OK. After windows is finished with the installation click DONE.
 
 <details><summary>See screenshots</summary>
-<img src="images/procedure1.png" width="40%" >
+<img src="images/step3.png" width="40%" >
 </details> 
 
 <h3>4. Extract PHP 7.3.8 on C:\PHP</h3>
