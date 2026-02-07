@@ -50,7 +50,12 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 - Within the vm-osTicket, download the [osTicket-Installation-Files.zip](https://drive.google.com/file/d/1YsiGAyLoOjtVyXyeYBJzAu5XdtiGBu0I/view?usp=sharing) and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”. We will use the files in this folder to install osTicket and some of the dependencies.
  
 <details><summary>See screenshots</summary>
-<img src="images/procedure1.png" width="40%" >
+<img src="images/step2a.png" width="40%" >
+<img src="images/step2b.png" width="40%" >
+<img src="images/step2c.png" width="40%" >
+<img src="images/step2d.png" width="40%" >
+<img src="images/step2e.png" width="40%" >
+<img src="images/step2e.png" width="40%" >
 </details> 
 
 <h3>3. Enable IIS in Windows with CGI</h3>
