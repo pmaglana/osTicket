@@ -55,7 +55,7 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 <img src="images/step2c.png" width="40%" >
 <img src="images/step2d.png" width="40%" >
 <img src="images/step2e.png" width="40%" >
-<img src="images/step2e.png" width="40%" >
+<img src="images/step2f.png" width="40%" >
 </details> 
 
 <h3>3. Enable IIS in Windows with CGI</h3>
