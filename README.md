@@ -46,8 +46,9 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 
 <h3>2. Log into the Virtual machine with Remote Desktop</h3>
 
-Within the vm-osTicket VM, download the [osTicket-Installation-Files.zip](https://drive.google.com/file/d/1YsiGAyLoOjtVyXyeYBJzAu5XdtiGBu0I/view?usp=sharing) and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”. We will use the files in this folder to install osTicket and some of the dependencies.
-
+- Make sure that your Azure VM is running, paste it's public IP at Remote Desktop, click Connect, then enter the username and password above, hit OK.
+- Within the vm-osTicket, download the [osTicket-Installation-Files.zip](https://drive.google.com/file/d/1YsiGAyLoOjtVyXyeYBJzAu5XdtiGBu0I/view?usp=sharing) and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”. We will use the files in this folder to install osTicket and some of the dependencies.
+ 
 <details><summary>See screenshots</summary>
 <img src="images/procedure1.png" width="40%" >
 </details> 
