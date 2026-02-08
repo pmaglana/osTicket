@@ -130,7 +130,7 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 - Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”.
 
 <details><summary>See screenshots</summary>
-<img src="images/procedure1.png" width="40%" >
+<img src="images/step7.png" width="40%" >
 </details> 
 
 <h3>8. Reset/Reload IIS.</h3>
