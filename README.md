@@ -57,7 +57,7 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 
 <h3>3. Enable IIS in Windows with CGI</h3>
 
-- At the start menu, search for "Turn Windows features on or off". The Windows Features box will pop up. Click + sign on Internet Information Services to expand. Click + on World Wide Web Services to expand. Then, click + on Application Development Features, and lastly tick the CGI checkbox, and hit OK.
+- At the start menu, search for "Turn Windows features on or off". The Windows Features box will pop up. Click + sign on Internet Information Services to expand. Click + on World Wide Web Services to expand. Then, click + on Application Development Features, and lastly tick the CGI checkbox, and hit OK. *(In some cases IIS Management Console needs to be installed too. To do this, just expand Web Management Tools & check IIS management Console)*
 - After windows is finished with the installation click the Close button.
  
 <details><summary>See screenshots</summary>
@@ -138,7 +138,7 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 <img src="images/procedure1.png" width="40%" >
 </details> 
 
-<h3>8. Loading osTicket Site.</h3>
+<h3>9. Loading osTicket Site.</h3>
 
 - At the IIS Manager window, go to Sites > Default Web Site> osTicket. And On the right panel, click “Browse *:80”
   
@@ -156,7 +156,7 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 <img src="images/procedure1.png" width="40%" >
 </details> 
 
-<h3>9. Renaming, Removing/Adding Permission to ost-sampleconfig.php & finalizing osTicket setup.</h3>
+<h3>10. Renaming, Removing/Adding Permission to ost-sampleconfig.php & finalizing osTicket setup.</h3>
 
 - Open Explorer, go to this path: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 - Right-click and Rename ost-sampleconfig.php to ```ost-config.php```.
@@ -179,7 +179,7 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 <img src="images/procedure1.png" width="40%" >
 </details> 
 
-<h3>10. Installing HeidiSQL and configuring the Database. </h3>
+<h3>11. Installing HeidiSQL and configuring the Database. </h3>
 
 - From the “osTicket-Installation-Files” folder, install ```HeidiSQL_12.3.0.6589_Setup.exe``` with the default settings, click launch and Finish to close the window.
 - From HeidiSQL Session manager window click +New to create a new session, use ```root``` for User and Password, then click Open.
