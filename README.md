@@ -48,7 +48,6 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 
 - Make sure that your Azure VM is running, paste it's public IP at Remote Desktop, click Connect, then enter the username and password above, hit OK.
 - Within the vm-osTicket, download the [osTicket-Installation-Files.zip](https://drive.google.com/file/d/1YsiGAyLoOjtVyXyeYBJzAu5XdtiGBu0I/view?usp=sharing) and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”. We will use the files in this folder to install osTicket and some of the dependencies.
- 
 <details><summary>See screenshots</summary>
 <img src="images/step2b.png" width="40%" >
 <img src="images/step2e.png" width="40%" >
@@ -59,7 +58,6 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 
 - At the start menu, search for "Turn Windows features on or off". The Windows Features box will pop up. Click + sign on Internet Information Services to expand. Click + on World Wide Web Services to expand. Then, click + on Application Development Features, and lastly tick the CGI checkbox, and hit OK. *(In some cases IIS Management Console needs to be installed too. To do this, just expand Web Management Tools & check IIS management Console)*
 - After windows is finished with the installation click the Close button.
- 
 <details><summary>See screenshots</summary>
 <img src="images/step3.png" width="40%" >
 </details> 
@@ -67,7 +65,6 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 <h3>4. Extract PHP 7.3.8 on C:\PHP</h3>
 
 - From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 by right-clicking on the file named ```php-7.3.8-nts-Win32-VC15-x86.zip```, click Extract All..., and at the Destination path textbox type in C:\PHP, then click Extract.
-
 <details><summary>See screenshots</summary>
 <img src="images/step4.png" width="40%" >
 </details> 
@@ -75,13 +72,11 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 <h3>5. From the “osTicket-Installation-Files” folder, install the following Prerequisite files, make sure to accept its agreemements and use the default settings.</h3>
 
 - Install PHP Manager ```PHPManagerForIIS_V1.5.0.msi```.
-
 <details><summary>See screenshots</summary>
 <img src="images/step5a.png" width="40%" >
 </details>
 
 - Install the Rewrite Module ```rewrite_amd64_en-US.msi```.
-
 <details><summary>See screenshots</summary>
 <img src="images/step5b.png" width="40%" >
 </details>
@@ -98,7 +93,6 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
     * Standard Configuration
     * Username: root
     * Password: root
-    
 <details><summary>See screenshots</summary>
 <img src="images/step5e.png" width="40%" >
 <img src="images/step5e.png" width="40%" >
@@ -112,11 +106,21 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 <h3>6. Open IIS as an Admin, Register PHP, and Reload IIS.</h3>
 
 - Click the Start button and search Internet Information Services(IIS), then click "Run as administrator".
-- Register PHP from within IIS by double clicking PHP Manager, click Register new PHP version and navigate to folder C:\PHP\php-cgi.exe, and hit OK to complete the process.
-- To Reload IIS, head to the Actions panel in the IIS manager then Click Stop, and after a couple of seconds click Start.
-
 <details><summary>See screenshots</summary>
-<img src="images/procedure1.png" width="40%" >
+<img src="images/step6.png" width="40%" >
+</details>
+
+- Register PHP from within IIS by double clicking PHP Manager, click Register new PHP version and navigate to folder C:\PHP\php-cgi.exe, and hit OK to complete the process.
+<details><summary>See screenshots</summary>
+<img src="images/step6a.png" width="40%" >
+<img src="images/step6b.png" width="40%" >
+<img src="images/step6c.png" width="40%" >
+<img src="images/step6d.png" width="40%" >
+</details>
+
+- To Reload IIS, head to the Actions panel in the IIS manager then Click Stop, and after a couple of seconds click Start.
+<details><summary>See screenshots</summary>
+<img src="images/step6e.png" width="40%" >
 </details> 
 
 <h3>7. Install osTicket v1.15.8.</h3>
