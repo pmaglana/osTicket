@@ -72,12 +72,31 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 <img src="images/step4.png" width="40%" >
 </details> 
 
-<h3>5. From the “osTicket-Installation-Files” folder, install the following Prerequisite files.</h3>
+<h3>5. From the “osTicket-Installation-Files” folder, install the following Prerequisite files, make sure to accept its agreemements and use the default settings.</h3>
 
-- Find and install PHP Manager ```PHPManagerForIIS_V1.5.0.msi```.
-- Find and install the Rewrite Module ```rewrite_amd64_en-US.msi```.
-- Find and install ```VC_redist.x86.exe```
-- Find and install ```mysql-5.5.62-win32.msi``` with the following setup:  
+- Install PHP Manager ```PHPManagerForIIS_V1.5.0.msi```.
+
+<details><summary>See screenshots</summary>
+<img src="images/step5a.png" width="40%" >
+</details>
+
+- Install the Rewrite Module ```rewrite_amd64_en-US.msi```.
+
+<details><summary>See screenshots</summary>
+<img src="images/step5b.png" width="40%" >
+</details>
+
+- Install ```VC_redist.x86.exe```
+
+
+<details><summary>See screenshots</summary>
+<img src="images/step5c.png" width="40%" >
+</details>
+
+- Install ```mysql-5.5.62-win32.msi``` with the following setup:
+<details><summary>See screenshots</summary>
+<img src="images/step5d.png" width="40%" >
+</details>
     * Typical Setup
     * Launch Configuration Wizard
     * Standard Configuration
@@ -85,7 +104,12 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
     * Password: root
 
 <details><summary>See screenshots</summary>
-<img src="images/procedure1.png" width="40%" >
+<img src="images/step5e.png" width="40%" >
+<img src="images/step5f.png" width="40%" >
+<img src="images/step5g.png" width="40%" >
+<img src="images/step5h.png" width="40%" >
+<img src="images/step5i.png" width="40%" >
+<img src="images/step5j.png" width="40%" >
 </details> 
 
 <h3>6. Open IIS as an Admin, Register PHP, and Reload IIS.</h3>
