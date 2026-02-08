@@ -88,22 +88,19 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 
 - Install ```VC_redist.x86.exe```
 
-
 <details><summary>See screenshots</summary>
 <img src="images/step5c.png" width="40%" >
 </details>
 
 - Install ```mysql-5.5.62-win32.msi``` with the following setup:
-<details><summary>See screenshots</summary>
-<img src="images/step5d.png" width="40%" >
-</details>
     * Typical Setup
     * Launch Configuration Wizard
     * Standard Configuration
     * Username: root
     * Password: root
-
+    
 <details><summary>See screenshots</summary>
+<img src="images/step5e.png" width="40%" >
 <img src="images/step5e.png" width="40%" >
 <img src="images/step5f.png" width="40%" >
 <img src="images/step5g.png" width="40%" >
