@@ -57,18 +57,19 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 
 <h3>3. Enable IIS in Windows with CGI</h3>
 
-At the start menu, search for "Turn Windows features on or off". The Windows Features box will pop up. Click + sign on Internet Information Services to expand. Click + on World Wide Web Services to expand. Then, click + on Application Development Features, and lastly tick the CGI checkbox, and hit OK. After windows is finished with the installation click DONE.
-
+- At the start menu, search for "Turn Windows features on or off". The Windows Features box will pop up. Click + sign on Internet Information Services to expand. Click + on World Wide Web Services to expand. Then, click + on Application Development Features, and lastly tick the CGI checkbox, and hit OK.
+- After windows is finished with the installation click the Close button.
+ 
 <details><summary>See screenshots</summary>
 <img src="images/step3.png" width="40%" >
 </details> 
 
 <h3>4. Extract PHP 7.3.8 on C:\PHP</h3>
 
-From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 by right-clicking on the file named ```php-7.3.8-nts-Win32-VC15-x86.zip```, click Extract files..., and at the Destination path textbox type C:\PHP, then click OK.
+- From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 by right-clicking on the file named ```php-7.3.8-nts-Win32-VC15-x86.zip```, click Extract All..., and at the Destination path textbox type in C:\PHP, then click Extract.
 
 <details><summary>See screenshots</summary>
-<img src="images/procedure1.png" width="40%" >
+<img src="images/step4.png" width="40%" >
 </details> 
 
 <h3>5. From the “osTicket-Installation-Files” folder, install the following Prerequisite files.</h3>
