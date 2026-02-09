@@ -139,12 +139,12 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 - Head to the Actions panel in the IIS manager then Click Stop, and after a couple of seconds click Start.
   
 <details><summary>See screenshots</summary>
-<img src="images/procedure1.png" width="40%" >
+<img src="images/step8.png" width="40%" >
 </details> 
 
 <h3>9. Loading osTicket Site.</h3>
 
-- At the IIS Manager window, go to Sites > Default Web Site> osTicket. And On the right panel, click “Browse *:80”
+- At the IIS Manager window, under Connections pannel expand vm-osTicket, then go to Sites > Default Web Site> osTicket. And On the Actions panel, click “Browse *:80”
   
 >[!NOTE]
 >_Some extensions are not enabled. Do the following steps to enable them._
