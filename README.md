@@ -185,7 +185,7 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 >*Assigning "Everyone" permissions to ost-config.php is for training/learning environment only. Permissions should be restricted after setup in real environments.*
 
 - Head back to the osTicket web browser and click Continue button located at the buttom part of the page and Enter these settings:
-    * Helpdesk Name: Your Name
+    * Helpdesk Name: Your Helpdesk
     * Default Email: Your email
     * First name: Your FN
     * Last Name: Your LN
@@ -194,7 +194,8 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
     * Password: Password123!
 
 <details><summary>See screenshots</summary>
-<img src="images/procedure1.png" width="40%" >
+<img src="images/step10b.png" width="40%" >
+<img src="images/step10c.png" width="40%" >
 </details> 
 
 <h3>11. Installing HeidiSQL and configuring the Database. </h3>
@@ -202,17 +203,19 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 - From the “osTicket-Installation-Files” folder, install ```HeidiSQL_12.3.0.6589_Setup.exe``` with the default settings, click launch and Finish to close the window.
 - From HeidiSQL Session manager window click +New to create a new session, use ```root``` for User and Password, then click Open.
 <details><summary>See screenshots</summary>
-<img src="images/procedure1.png" width="40%" >
+<img src="images/step11.png" width="40%" >
+<img src="images/step11a.png" width="40%" >
 </details> 
 
 - A new window pops-up, rightclick Unnamed *(dolphin icon)*, select Create new then click Database.
 <details><summary>See screenshots</summary>
-<img src="images/procedure1.png" width="40%" >
+<img src="images/step11c.png" width="40%" >
+<img src="images/step11b.png" width="40%" >
 </details> 
 
 - At the Create database window, type ```osTicket``` at the Name textbox, and click OK.
 <details><summary>See screenshots</summary>
-<img src="images/procedure1.png" width="40%" >
+<img src="images/step11d.png" width="40%" >
 </details> 
 
 - Continue Setting up osTicket in the browser and click the "Install Now" button after entering the following credentials:
@@ -220,7 +223,7 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
     * MySQL Username: root
     * MySQL Password: root
 <details><summary>See screenshots</summary>
-<img src="images/procedure1.png" width="40%" >
+<img src="step11e.png" width="40%" >
 </details> 
 
 <h2>Finishing Up</h2>
@@ -229,7 +232,7 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 - Help desk login page: *http://localhost/osTicket/scp/login.php*
 - End Users osTicket URL: *http://localhost/osTicket/*
 <details><summary>See screenshots</summary>
-<img src="images/procedure1.png" width="40%" >
+<img src="images/grats.png" width="40%" >
 </details> 
 
 <sub>*Having issues and trouble installing osTicket, please reach out to paulo@maglana.com*</sub>
