@@ -223,7 +223,7 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
     * MySQL Username: root
     * MySQL Password: root
 <details><summary>See screenshots</summary>
-<img src="step11e.png" width="40%" >
+<img src="images/step11e.png" width="40%" >
 </details> 
 
 <h2>Finishing Up</h2>
