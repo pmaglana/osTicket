@@ -145,11 +145,20 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 <h3>9. Loading osTicket Site.</h3>
 
 - At the IIS Manager window, under Connections pannel expand vm-osTicket, then go to Sites > Default Web Site> osTicket. And On the Actions panel, click “Browse *:80”
-  
+
+<details><summary>See screenshots</summary>
+<img src="images/step9.png" width="40%" >
+</details> 
+
 >[!NOTE]
 >_Some extensions are not enabled. Do the following steps to enable them._
 - Go back to IIS, Sites -> Default -> osTicket
 - Double-click PHP Manager
+
+<details><summary>See screenshots</summary>
+<img src="images/step9a.png" width="40%" >
+</details> 
+
 - Click “Enable or disable an extension”  
     * Enable: php_imap.dll
     * Enable: php_intl.dll
@@ -157,7 +166,7 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 - Refresh the osTicket site in your browser, observe the changes
 
 <details><summary>See screenshots</summary>
-<img src="images/procedure1.png" width="40%" >
+<img src="imagesstep9b.png" width="40%" >
 </details> 
 
 <h3>10. Renaming, Removing/Adding Permission to ost-sampleconfig.php & finalizing osTicket setup.</h3>
