@@ -166,7 +166,7 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 - Refresh the osTicket site in your browser, observe the changes
 
 <details><summary>See screenshots</summary>
-<img src="imagesstep9b.png" width="40%" >
+<img src="images/step9b.png" width="40%" >
 </details> 
 
 <h3>10. Renaming, Removing/Adding Permission to ost-sampleconfig.php & finalizing osTicket setup.</h3>
