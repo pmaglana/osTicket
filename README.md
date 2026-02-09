@@ -184,20 +184,6 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 >[!CAUTION]
 >*Assigning "Everyone" permissions to ost-config.php is for training/learning environment only. Permissions should be restricted after setup in real environments.*
 
-- Head back to the osTicket web browser and click Continue button located at the buttom part of the page and Enter these settings:
-    * Helpdesk Name: Your Helpdesk
-    * Default Email: Your email
-    * First name: Your FN
-    * Last Name: Your LN
-    * Email Address: *should be diff from default email*
-    * Username: adminuser
-    * Password: Password123!
-
-<details><summary>See screenshots</summary>
-<img src="images/step10b.png" width="40%" >
-<img src="images/step10c.png" width="40%" >
-</details> 
-
 <h3>11. Installing HeidiSQL and configuring the Database. </h3>
 
 - From the “osTicket-Installation-Files” folder, install ```HeidiSQL_12.3.0.6589_Setup.exe``` with the default settings, click launch and Finish to close the window.
@@ -216,6 +202,20 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 - At the Create database window, type ```osTicket``` at the Name textbox, and click OK.
 <details><summary>See screenshots</summary>
 <img src="images/step11d.png" width="40%" >
+</details> 
+
+- Head back to the osTicket web browser and click Continue button located at the buttom part of the page and Enter these settings:
+    * Helpdesk Name: Your Helpdesk
+    * Default Email: Your email
+    * First name: Your FN
+    * Last Name: Your LN
+    * Email Address: *should be diff from default email*
+    * Username: adminuser
+    * Password: Password123!
+
+<details><summary>See screenshots</summary>
+<img src="images/step10b.png" width="40%" >
+<img src="images/step10c.png" width="40%" >
 </details> 
 
 - Continue Setting up osTicket in the browser and click the "Install Now" button after entering the following credentials:
