@@ -173,9 +173,14 @@ In this project we will install and deploy osTicket on a Windows 10 virtual mach
 
 - Open Explorer, go to this path: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 - Right-click and Rename ost-sampleconfig.php to ```ost-config.php```.
-- To remomve permission, right-click ost-config.php, select Properties -> Security tab -> Advanced, click Disable Inheritance and Select Remove all.
-- And on the same window, lets add Permission by clicking Add button, Select Principal, type "Everyone" on the object name, hit OK, tick Full control, hit OK, click Apply then OK to close the window.
-  
+- To remomve permission, right-click ost-config.php, select Properties -> Security tab -> Advanced, click Disable Inheritance and Select Remove all, click Apply and OK.
+- Back at ost-config.php Properties window, lets add Permission by clicking Advance, then Add button, Select Principal, type "Everyone" on the object name, hit OK, tick Full control, hit OK, click Apply then OK to close the window.
+
+<details><summary>See screenshots</summary>
+<img src="images/step10.png" width="40%" >
+<img src="images/step10a.png" width="40%" >
+</details> 
+
 >[!CAUTION]
 >*Assigning "Everyone" permissions to ost-config.php is for training/learning environment only. Permissions should be restricted after setup in real environments.*
 
